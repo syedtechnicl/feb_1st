@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    height: 100vh;
+}
+
+
+.main-container {
+    display: grid;
+    height: 100vh;
+    grid-template-areas:
+        'nav'
+        'menu'
+        'cakes'
+        'who_we_are'
+        'img'
+        'Special_Menu'
+        'img_2'
+        'Special_Menu_2'
+        'What_We_Do'
+        'Vegan_Goods'
+        'Wedding_Menu'
+        'Cupcakes'
+        'Location'
+        'footer';
+}
+
+nav {
+    /* border: 1px solid; */
+    grid-area: nav;
+}
+
+menu {
+    /* border: 1px solid; */
+    grid-area: menu;
+}
+
+#Cakes {
+    /* border: 1px solid; */
+    grid-area: cakes;
+}
+
+#Who_We_Are {
+    /* border: 1px solid; */
+    grid-area: who_we_are;
+}
+
+#img {
+    /* border: 1px solid; */
+    grid-area: img;
+}
+
+#Special_Menu {
+    /* border: 1px solid; */
+    grid-area: Special_Menu;
+}
+
+#img_2 {
+    /* border: 1px solid; */
+    grid-area: img_2;
+}
+
+#Special_Menu_2 {
+    /* border: 1px solid; */
+    grid-area: Special_Menu_2;
+}
+
+#What_We_Do {
+    /* border: 1px solid; */
+    grid-area: What_We_Do;
+}
+
+#Vegan_Goods {
+    /* border: 1px solid; */
+    grid-area: Vegan_Goods;
+}
+
+#Wedding_Menu {
+    /* border: 1px solid; */
+    grid-area: Wedding_Menu;
+}
+
+#Cupcakes {
+    /* border: 1px solid; */
+    grid-area: Cupcakes;
+}
+
+#Location {
+    /* border: 1px solid; */
+    grid-area: Location;
+}
+
+footer {
+    /* border: 1px solid; */
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+#Who_We_Are {
+
+    display: grid;
+    grid-template-areas:
+        'div1 div2'
+
+}
+
+
+
+#div1 {
+    grid-area: div1;
+}
+
+#div2 {
+    grid-area: div2;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.border {
+    border: 5px solid burlywood;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#Location {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    .main-container {
+        display: grid;
+        height: 100vh;
+        grid-template-areas:
+            'nav'
+            'menu'
+            'cakes'
+            'who_we_are'
+            'img'
+            'Special_Menu'
+            'img_2'
+            'Special_Menu_2'
+            'What_We_Do'
+            'Vegan_Goods'
+            'Wedding_Menu'
+            'Cupcakes'
+            'Location'
+            'footer';
+    }
+
+
+    #Who_We_Are {
+
+        display: grid;
+        grid-template-areas:
+            'div1'
+            'div2'
+    
+    }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
